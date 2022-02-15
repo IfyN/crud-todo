@@ -2,4 +2,4 @@
 
 A CRUD To-do application
 
-- built to update knowledge on Vanilla JS
+- built to refresh knowledge on Vanilla JS
