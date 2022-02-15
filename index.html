@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>My To do App</h1>
+    </header>
+    <main>
+        <div class="new">
+            <input id="new" class="new-input" type="text" placeholder="Add new item" />
+            <button id="add" class="new-button" disabled>Add</button>
+        </div>
+        <ul id="tasks">
+
+        </ul>
+    </main>
+    <template id="taskTemplate">
+        <li>
+            <label class="item">
+                <input class="item-check" type="checkbox" />
+                <span class="item-text"></span>
+                <button class="delete">delete</button>
+            </label>
+        </li>
+    </template>
+</body>
+
+</html>
